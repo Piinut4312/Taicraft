@@ -3,30 +3,23 @@ package com.piinut.taicraft.recipe;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.piinut.taicraft.register.ModRecipes;
-import net.minecraft.client.util.RecipeBookCategories;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.*;
 import net.minecraft.network.PacketBuffer;
-import net.minecraft.resources.IFutureReloadListener;
 import net.minecraft.util.JSONUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.world.World;
 import net.minecraftforge.registries.ForgeRegistryEntry;
 
 public class SteamerRecipe extends AbstractCookingRecipe {
 
-    public static final Serializer SERIALIZER = new Serializer(200);
-
     public SteamerRecipe(Ingredient ingredient, ItemStack result, String group, ResourceLocation resource, float exp, int cookTime) {
         super(ModRecipes.STEAMER_RECIPE_TYPE, resource, group, ingredient, result, exp, cookTime);
-
     }
 
     @Override
     public IRecipeSerializer<?> getSerializer() {
-        return SERIALIZER;
+        return ModRecipes.STEAMER_RECIPE.get();
     }
 
     @Override
@@ -34,11 +27,11 @@ public class SteamerRecipe extends AbstractCookingRecipe {
         return ModRecipes.STEAMER_RECIPE_TYPE;
     }
 
-    private static class Serializer extends ForgeRegistryEntry<IRecipeSerializer<?>> implements IRecipeSerializer<SteamerRecipe>{
+    public static class Serializer extends ForgeRegistryEntry<IRecipeSerializer<?>> implements IRecipeSerializer<SteamerRecipe>{
 
         private final int defaultCookingTime;
 
-        Serializer(int defaultCookingTime){
+        public Serializer(int defaultCookingTime){
             this.defaultCookingTime = defaultCookingTime;
         }
 
@@ -64,9 +57,9 @@ public class SteamerRecipe extends AbstractCookingRecipe {
         public SteamerRecipe fromNetwork(ResourceLocation resource, PacketBuffer packet) {
             Ingredient input = Ingredient.fromNetwork(packet);
             ItemStack output = packet.readItem();
+            String s = packet.readUtf(32767);
             float exp = packet.readFloat();
             int cookingTime = packet.readVarInt();
-            String s = packet.readUtf(32767);
             return new SteamerRecipe(input, output, s, resource, exp, cookingTime);
         }
 
@@ -74,9 +67,9 @@ public class SteamerRecipe extends AbstractCookingRecipe {
         public void toNetwork(PacketBuffer packet, SteamerRecipe recipe) {
             recipe.ingredient.toNetwork(packet);
             packet.writeItem(recipe.result);
-            packet.writeFloat(recipe.experience);
-            packet.writeFloat(recipe.cookingTime);
             packet.writeUtf(recipe.group);
+            packet.writeFloat(recipe.experience);
+            packet.writeInt(recipe.cookingTime);
         }
     }
 

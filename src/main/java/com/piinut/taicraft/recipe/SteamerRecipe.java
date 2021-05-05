@@ -69,7 +69,7 @@ public class SteamerRecipe extends AbstractCookingRecipe {
             packet.writeItem(recipe.result);
             packet.writeUtf(recipe.group);
             packet.writeFloat(recipe.experience);
-            packet.writeInt(recipe.cookingTime);
+            packet.writeVarInt(recipe.cookingTime);
         }
     }
 

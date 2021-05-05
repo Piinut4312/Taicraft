@@ -1,0 +1,17 @@
+{
+  "name": "大腸包小腸",
+  "category": "taicraft:foods",
+  "icon": "taicraft:taiwanese_sausage_with_sticky_rice",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "大腸包小腸看起來類似於美式熱狗堡，但麵包被換成了糯米腸，而熱狗被換成了台式香腸。在台灣多數的夜市裡都能找到這樣小吃。食用大腸包小腸恢復10點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "大腸包小腸的合成配方。",
+      "recipe": "taicraft:taiwanese_sausage_with_sticky_rice"
+    }
+  ]
+}

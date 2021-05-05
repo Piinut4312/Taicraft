@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:rice"
+    }
+  ],
+  "result": {
+    "item": "taicraft:rice_seed",
+    "count": 4
+  }
+}

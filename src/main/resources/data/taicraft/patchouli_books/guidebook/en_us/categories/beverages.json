@@ -1,0 +1,6 @@
+{
+  "name": "Beverages",
+  "description": "Information about beverages in Taicraft.",
+  "icon": "taicraft:beverage_container",
+  "sortnum": 3
+}

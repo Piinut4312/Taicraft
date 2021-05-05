@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:steamed_bread"
+    },
+    {
+      "item": "taicraft:peanut_powder"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "result": {
+    "item": "taicraft:gua_bao",
+    "count": 1
+  }
+}

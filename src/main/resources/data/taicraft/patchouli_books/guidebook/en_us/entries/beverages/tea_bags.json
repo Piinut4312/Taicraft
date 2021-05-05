@@ -1,0 +1,23 @@
+{
+  "name": "Tea Bags",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:black_tea_bag",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tea bags are used to make tea. To craft a tea bag, you need to fill an empty tea bag with tea leaves in the crafting table."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of empty tea bag.",
+      "recipe": "taicraft:empty_tea_bag"
+    },
+    {
+      "type": "crafting",
+      "title": "Tea Bag",
+      "text": "The crafting recipe of black tea bag. If you want to make other kinds of tea, replace the black tea leaves with different tea leaves.",
+      "recipe": "taicraft:black_tea_bag"
+    }
+  ]
+}

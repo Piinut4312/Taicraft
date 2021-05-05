@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "taicraft:sunny_side_up_egg",
+  "experience": 0.15,
+  "cookingtime": 100
+}

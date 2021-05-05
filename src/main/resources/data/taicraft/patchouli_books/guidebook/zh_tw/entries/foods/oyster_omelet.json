@@ -1,0 +1,17 @@
+{
+  "name": "蚵仔煎",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster_omelet",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "text",
+      "text": "蚵仔煎是在蛋餅上鋪上蚵仔和蔬菜，再用太白粉水勾芡製成。有時候會用蝦仁或花枝來取代蚵仔。食用蚵仔煎恢復8飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:dish",
+      "recipe2": "taicraft:oyster_omelet"
+    }
+  ]
+}

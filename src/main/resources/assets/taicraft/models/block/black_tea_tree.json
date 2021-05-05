@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "taicraft:block/black_tea_tree_2"
+  }
+}

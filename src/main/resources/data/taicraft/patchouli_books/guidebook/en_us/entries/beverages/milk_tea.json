@@ -1,0 +1,24 @@
+{
+  "name": "Milk Tea",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:milk_tea_bottle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Milk, and tea. What a genius combination! Milk tea appears in many cultures, and Taiwan is one of them. Making milk tea is simple. When a beverage container is filled with black tea, right click the container with a bucket of milk to make milk tea."
+    },
+    {
+      "type": "text",
+      "text": "Drinking milk tea doesn't remove all potion effects; it only removes some of the harmful potion effects, such as poison, slowness, hunger, weakness, and nausea."
+    },
+    {
+      "type": "image",
+      "title": "Milk Tea",
+      "text": "Milk tea in a tank, a milk tea bucket and a milk tea bottle.",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/milk_tea.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "W": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "taicraft:steamer",
+    "count": 1
+  }
+}

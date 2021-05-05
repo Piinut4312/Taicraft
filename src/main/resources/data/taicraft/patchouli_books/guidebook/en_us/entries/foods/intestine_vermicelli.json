@@ -1,0 +1,17 @@
+{
+  "name": "Intestine Vermicelli",
+  "category": "taicraft:foods",
+  "icon": "taicraft:intestine_vermicelli",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Intestine vermicelli is a noodle soup consists of large intestines and misua(Chinese vermicelli). Eating intestine vermicelli restores 10 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:intestine_vermicelli",
+      "text": "The crafting recipe of intestine vermicelli"
+    }
+  ]
+}

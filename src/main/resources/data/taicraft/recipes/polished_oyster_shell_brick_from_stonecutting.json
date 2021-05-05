@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "taicraft:oyster_shell_brick"
+  },
+  "result": "taicraft:polished_oyster_shell_brick",
+  "count": 1
+}

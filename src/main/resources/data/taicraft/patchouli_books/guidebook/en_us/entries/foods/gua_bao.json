@@ -1,0 +1,17 @@
+{
+  "name": "Gua Bao",
+  "category": "taicraft:foods",
+  "icon": "taicraft:gua_bao",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Gua Bao, aka pork belly buns, consist of a slice of braised pork belly and other condiments sandwiched between flat steamed bread (Lotus leaf bread). Eating gua bao restores 14 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:gua_bao",
+      "text": "The crafting recipe of gua bao."
+    }
+  ]
+}

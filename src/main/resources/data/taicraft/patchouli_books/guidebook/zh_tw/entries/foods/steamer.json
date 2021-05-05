@@ -1,0 +1,17 @@
+{
+  "name": "蒸氣爐",
+  "category": "taicraft:foods",
+  "icon": "taicraft:steamer",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "蒸氣爐是用來蒸煮食物的熔爐類方塊。蒸氣爐烹蒸煮食物的速度和熔爐相同。"
+    },
+    {
+      "type": "crafting",
+      "text": "蒸氣爐的合成配方。",
+      "recipe": "taicraft:steamer"
+    }
+  ]
+}

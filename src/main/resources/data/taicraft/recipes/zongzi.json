@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:bowl_of_rice"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "taicraft:peanut"
+    },
+    {
+      "item": "taicraft:bamboo_leaf"
+    },
+    {
+      "item": "taicraft:bamboo_leaf"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "taicraft:zongzi",
+    "count": 1
+  }
+}

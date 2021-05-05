@@ -1,0 +1,17 @@
+{
+  "name": "大腸麵線",
+  "category": "taicraft:foods",
+  "icon": "taicraft:intestine_vermicelli",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "大腸麵線是由大腸和麵線組成(對，我是故意漏掉香菜的)。食用大腸麵線恢復10點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:intestine_vermicelli",
+      "text": "大腸麵線的合成配方。"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:steamed_bread"
+    },
+    {
+      "item": "taicraft:sunny_side_up_egg"
+    }
+  ],
+  "result": {
+    "item": "taicraft:steamed_bread_with_egg",
+    "count": 1
+  }
+}

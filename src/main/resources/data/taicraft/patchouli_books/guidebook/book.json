@@ -1,0 +1,9 @@
+{
+  "name": "taicraft.book.name",
+  "landing_text": "taicraft.book.landing_text",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "model": "patchouli:book_green",
+  "creative_tab": "taicraft",
+  "i18n": true,
+  "version": 1
+}

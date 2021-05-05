@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "entries": [
+    "taicraft:grass",
+    "taicraft:pig",
+    "taicraft:fish",
+    "taicraft:bamboo",
+    "taicraft:fish_junk"
+  ]
+}

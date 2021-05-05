@@ -1,0 +1,17 @@
+{
+  "name": "Chicken Rice",
+  "category": "taicraft:foods",
+  "icon": "taicraft:chicken_rice",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The most famous Taiwanese chicken rice comes from Chiayi. Sometimes people use turkey instead of chicken to make chicken rice. Eating chicken rice restores 11 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of chicken rice.",
+      "recipe": "taicraft:chicken_rice"
+    }
+  ]
+}

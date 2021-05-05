@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:dough"
+    },
+    {
+      "item": "taicraft:scallion"
+    },
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "result": {
+    "item": "taicraft:raw_bao",
+    "count": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "#",
+    "S"
+  ],
+  "key": {
+    "#": {
+      "item": "taicraft:pig_blood_cake"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "taicraft:peanut_powder"
+    }
+  },
+  "result": {
+    "item": "taicraft:pig_blood_cake_with_peanut_powder",
+    "count": 1
+  }
+}

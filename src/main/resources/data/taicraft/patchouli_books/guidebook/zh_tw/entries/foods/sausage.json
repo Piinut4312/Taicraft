@@ -1,0 +1,22 @@
+{
+  "name": "香腸",
+  "category": "taicraft:foods",
+  "icon": "taicraft:grilled_sausage",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "香腸是相當受歡迎的夜市美食。台式香腸通常是用豬肉所製成。它們吃起來偏甜，有著脆脆的腸衣和多汁的肉質。有些人會在香腸裡加入紹興酒或高粱酒。$(br2)食用生香腸恢復1點飢餓值，而食用烤香腸恢復3點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "生香腸的合成配方。",
+      "recipe": "taicraft:raw_sausage"
+    },
+    {
+      "type": "smelting",
+      "recipe": "taicraft:grilled_sausage",
+      "text": "烤香腸的燒煉配方。"
+    }
+  ]
+}

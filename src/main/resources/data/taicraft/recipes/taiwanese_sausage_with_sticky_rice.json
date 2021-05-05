@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:grilled_sausage"
+    },
+    {
+      "item": "taicraft:sticky_rice_sausage"
+    }
+  ],
+  "result": {
+    "item": "taicraft:taiwanese_sausage_with_sticky_rice",
+    "count": 1
+  }
+}

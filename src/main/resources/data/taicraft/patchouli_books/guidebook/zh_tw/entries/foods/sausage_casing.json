@@ -1,0 +1,26 @@
+{
+  "name": "香腸腸衣",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sausage_casing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "香腸腸衣是製作腸衣的原料之一。要製作腸衣，你需要殺死豬來取得腸子，並把腸子投入水中清洗。在那之後，你就可以在合成台內合成出腸衣。"
+    },
+    {
+      "type": "crafting",
+      "text": "香腸腸衣的合成配方。",
+      "recipe": "taicraft:sausage_casing"
+    },
+    {
+      "type": "text",
+      "text": "腸子是可食用的。食用腸子恢復1點飢餓值並獲得噁心效果。食用洗過的腸子同樣恢復1點飢餓值，但不會獲得噁心效果。你也可以將清洗過的腸子製成烤大腸，食用後恢復3點飢餓值。"
+    },
+    {
+      "type": "smelting",
+      "recipe": "taicraft:cooked_intestine",
+      "text": "The smelting recipe of cooked intestine."
+    }
+  ]
+}

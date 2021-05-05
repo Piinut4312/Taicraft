@@ -1,0 +1,34 @@
+{
+  "name": "Tank",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:fluid_tank",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tanks are blocks that can store one bucket of any liquid. You can right-click the tank with a non-empty bucket to fill it up. Right-clicking the tank with an empty bucket removes the liquid inside it. Tanks can also store at most six items. To put an item in the tank, right-click the bottom of the tank with that item. Right-clicking on an item inside the tank takes it out."
+    },
+    {
+      "type": "text",
+      "text": "If it's filled with lava, it can burn items or entities inside it.$(br2)If the block below a tank is a campfire, soul campfire, fire, or lava, the tank will enter $(c)Cooking Mode$(). $(br2)There are many ways to use tanks. Here is a list of everything you can do with tanks:"
+    },
+    {
+      "type": "text",
+      "text": "1. If a tank is in $(c)Cooking Mode$(), and it has water inside it, then the water will dry out after one minute and leaves $(c)nigari$() in the bottom of the tank.$(br2)2. You can make $(c)soy milk$() by filling the tank with water and six soybeans while the tank is in $(c)Cooking Mode$(). This process will take one minute."
+    },
+    {
+      "type": "text",
+      "text": "3. You can make $(c)brine$() by putting at least three brine ingredients in a tank filled with water. Brine ingredients are raw beef, raw porkchop, raw mutton, raw chicken, raw rabbit, egg, and fermented spider eye. This process takes about 10 minutes.$(br2)4. You can make $(c)tofu$() by putting at least one nigari in a tank filled with soy milk. The process takes about 30 seconds and gives you six pieces of tofu."
+    },
+    {
+      "type": "text",
+      "text": "5. You can turn tofu into $(c)stinky tofu$()by putting at least one tofu in a tank filled with brine. The process takes about 10 seconds.$(br2)6. You can make $(c)tea$() by putting at least three tea bags in a tank filled with water in $(c)Cooking Mode$(). The process takes about 1 minute."
+    },
+    {
+      "type": "crafting",
+      "title": "Tank",
+      "text": "The crafting recipe of tank.",
+      "recipe": "taicraft:fluid_tank"
+    }
+  ]
+}

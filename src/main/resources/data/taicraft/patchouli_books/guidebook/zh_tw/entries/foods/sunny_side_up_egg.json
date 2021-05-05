@@ -1,0 +1,17 @@
+{
+  "name": "荷包蛋",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sunny_side_up_egg",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "在熔爐裡煮蛋可以得到荷包蛋。食用荷包蛋恢復2點飢餓值。"
+    },
+    {
+      "type": "smelting",
+      "text": "荷包蛋的燒煉配方。",
+      "recipe": "taicraft:sunny_side_up_egg"
+    }
+  ]
+}

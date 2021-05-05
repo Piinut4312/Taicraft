@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "taicraft:block/scallion_stage0"
+  }
+}

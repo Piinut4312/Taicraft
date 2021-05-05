@@ -1,0 +1,17 @@
+{
+  "name": "蔥抓餅",
+  "category": "taicraft:foods",
+  "icon": "taicraft:scallion_pancake",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "蔥抓餅是用切碎的青蔥和麵糰煎成的一種鹹麵點。食用蔥抓餅恢復2點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "蔥抓餅的合成配方。",
+      "recipe": "taicraft:scallion_pancake"
+    }
+  ]
+}

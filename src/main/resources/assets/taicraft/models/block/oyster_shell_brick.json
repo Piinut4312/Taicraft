@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "taicraft:block/oyster_shell_brick"
+  }
+}

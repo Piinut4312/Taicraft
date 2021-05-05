@@ -1,0 +1,12 @@
+{
+  "name": "Stinky Tofu",
+  "category": "taicraft:foods",
+  "icon": "taicraft:stinky_tofu",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Stinky tofu can be made by soaking tofu in the brine. As its name suggests, they have a strong odor that can be smelled even from far away. Eating stinky tofu restores 2 hunger, and gives the consumer 1 minute of $(c)Stinky$() effect. When a player has stinky effect, most mobs will try to run away from you, even when they are hostile toward you."
+    }
+  ]
+}

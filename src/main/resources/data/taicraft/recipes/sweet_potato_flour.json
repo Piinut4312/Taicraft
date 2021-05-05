@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:sweet_potato"
+    }
+  ],
+  "result": {
+    "item": "taicraft:sweet_potato_flour",
+    "count": 3
+  }
+}

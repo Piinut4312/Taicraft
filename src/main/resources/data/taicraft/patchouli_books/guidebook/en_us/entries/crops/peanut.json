@@ -1,0 +1,26 @@
+{
+  "name": "Peanut",
+  "category": "taicraft:crops",
+  "icon": "taicraft:peanut",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "You can found peanuts in various Taiwanese dishes. Peanuts are also the main ingredient to make peanut powder. The only way to obtain peanuts is through villager trading. You can farm peanuts in the same way as farming potatoes or carrots."
+    },
+    {
+      "type": "image",
+      "title": "Peanut",
+      "text": "The appearance of peanuts",
+      "images": [
+        "taicraft:textures/gui/entries/crops/peanut.png"
+      ]
+    },
+    {
+      "type": "crafting",
+      "title": "Peanut Powder",
+      "text": "The crafting recipe of peanut powder.",
+      "recipe": "taicraft:peanut_powder"
+    }
+  ]
+}

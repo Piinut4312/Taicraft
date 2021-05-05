@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:rice"
+    },
+    {
+      "item": "taicraft:rice"
+    },
+    {
+      "item": "taicraft:rice"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "taicraft:bowl_of_rice",
+    "count": 1
+  }
+}

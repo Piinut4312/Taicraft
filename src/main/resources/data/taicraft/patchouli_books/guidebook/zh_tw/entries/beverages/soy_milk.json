@@ -1,0 +1,20 @@
+{
+  "name": "豆漿",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:soy_milk_bottle",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "豆漿是台灣常見的飲料。你可以在大多數的傳統中式早餐店找到他們。豆漿含有和牛奶幾乎同樣多的蛋白質，但擁有較低的卡路里，而且富含各類維生素。$(br2)飲用豆漿會清除玩家身上的所有藥水效果，類似於牛奶。桶裝的豆漿和瓶裝的豆漿效果是一樣的。"
+    },
+    {
+      "type": "image",
+      "title": "豆漿",
+      "text": "裝著豆漿的水缸， 豆漿桶和豆漿瓶。",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/soy_milk.png"
+      ]
+    }
+  ]
+}

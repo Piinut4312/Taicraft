@@ -1,0 +1,21 @@
+{
+  "name": "Dough",
+  "category": "taicraft:foods",
+  "icon": "taicraft:dough",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Dough is the ingredient of noodles and bread. To craft dough, you need a bucket of water and some flour. Flour can be made from wheat."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:flour",
+      "recipe2": "taicraft:dough"
+    },
+    {
+      "type": "text",
+      "text": "You can make bread by baking the dough in a furnace. On the other hand, if you want to make steamed bread, you have to steam the dough with a steamer."
+    }
+  ]
+}

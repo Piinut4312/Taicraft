@@ -1,0 +1,17 @@
+{
+  "name": "糯米腸",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sticky_rice_sausage",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "糯米腸是由糯米和花生製成。食用糯米腸恢復5點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "糯米腸的合成配方。",
+      "recipe": "taicraft:sticky_rice_sausage"
+    }
+  ]
+}

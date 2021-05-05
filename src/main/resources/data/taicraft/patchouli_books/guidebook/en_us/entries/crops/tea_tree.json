@@ -1,0 +1,20 @@
+{
+  "name": "Tea Trees",
+  "category": "taicraft:crops",
+  "icon": "taicraft:black_tea_sapling",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tea trees produce tea leaves, which you can make into tea bags for making tea. To plant tea trees, you need tea tree saplings. The only way to obtain tea tree saplings is through villager trading. When a tea tree is mature, you can collect tea leaves by using a shear. Currently, there is only one type of tea tree in the game, but there will be more in the future."
+    },
+    {
+      "type": "image",
+      "title": "Tea Tree",
+      "text": "The appearance of tea trees.",
+      "images": [
+        "taicraft:textures/gui/entries/crops/tea_tree.png"
+      ]
+    }
+  ]
+}

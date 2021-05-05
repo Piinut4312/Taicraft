@@ -1,0 +1,20 @@
+{
+  "name": "黃豆",
+  "category": "taicraft:crops",
+  "icon": "taicraft:soybean",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "黃豆是製作豆腐和豆漿的原料之一。取得黃豆的唯一方法是透過和村民進行交易。你必須將黃豆分解成黃豆種子才能種植。"
+    },
+    {
+      "type": "image",
+      "title": "黃豆",
+      "text": "黃豆的外觀。",
+      "images": [
+        "taicraft:textures/gui/entries/crops/soybean.png"
+      ]
+    }
+  ]
+}

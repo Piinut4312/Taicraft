@@ -1,0 +1,17 @@
+{
+  "name": "割包",
+  "category": "taicraft:foods",
+  "icon": "taicraft:gua_bao",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "text",
+      "text": "割包，又稱刈包，是將滷豬五花肉和一些佐料夾在類似饅頭的麵包內製成。食用割包恢復14飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:gua_bao",
+      "text": "割包的合成配方。"
+    }
+  ]
+}

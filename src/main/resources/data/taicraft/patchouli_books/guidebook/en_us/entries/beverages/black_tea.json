@@ -1,0 +1,24 @@
+{
+  "name": "Black Tea",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:black_tea_bottle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Taiwan is famous for its tea culture. One of the famous types of tea is black tea. Drinking black tea has many health benefits, such as boosting heart health, reducing blood pressure, and lowering blood sugar levels."
+    },
+    {
+      "type": "text",
+      "text": "In the game, black tea works like soy milk. Drinking black tea removes all potion effects from the drinker. Again, it doesn't matter whether you are drinking a bucket or a bottle of it."
+    },
+    {
+      "type": "image",
+      "title": "Black Tea",
+      "text": "Black tea in a tank, a black tea bucket and a black tea bottle.",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/black_tea.png"
+      ]
+    }
+  ]
+}

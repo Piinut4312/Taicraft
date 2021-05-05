@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "minecraft:rabbit"
+  },
+  "result": "taicraft:steamed_rabbit",
+  "experience": 0.35,
+  "cookingtime": 200
+}

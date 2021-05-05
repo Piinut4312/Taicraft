@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "taicraft:block/black_tea_sapling"
+    },
+    "age=1": {
+      "model": "taicraft:block/black_tea_tree"
+    }
+  }
+}

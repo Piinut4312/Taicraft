@@ -1,0 +1,17 @@
+{
+  "name": "Scallion Pancake",
+  "category": "taicraft:foods",
+  "icon": "taicraft:scallion_pancake",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Scallion pancake, or \"Green onion pancake\", is a chewy and crispy savory made with dough and minced scallions. Eating scallion pancakes restores 2 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of scallion pancake.",
+      "recipe": "taicraft:scallion_pancake"
+    }
+  ]
+}

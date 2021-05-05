@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "taicraft:sweet_potato"
+  },
+  "result": "taicraft:baked_sweet_potato",
+  "experience": 0.35,
+  "cookingtime": 200
+}

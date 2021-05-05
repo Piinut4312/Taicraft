@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "taicraft:raw_bao"
+  },
+  "result": "taicraft:bao",
+  "experience": 0.35,
+  "cookingtime": 200
+}

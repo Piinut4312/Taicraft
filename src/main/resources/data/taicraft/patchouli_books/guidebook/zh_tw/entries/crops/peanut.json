@@ -1,0 +1,25 @@
+{
+  "name": "花生",
+  "category": "taicraft:crops",
+  "icon": "taicraft:peanut",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可以在多種台式料理中發現花生。花生也是製作花生粉的原料。取得花生的唯一方法是透過和村民進行交易。種植花生的方法和種植馬鈴薯一樣。"
+    },
+    {
+      "type": "image",
+      "title": "花生",
+      "text": "花生的外觀",
+      "images": [
+        "taicraft:textures/gui/entries/crops/peanut.png"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "花生粉的合成配方",
+      "recipe": "taicraft:peanut_powder"
+    }
+  ]
+}

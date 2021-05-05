@@ -1,0 +1,30 @@
+{
+  "name": "番薯",
+  "category": "taicraft:crops",
+  "icon": "taicraft:sweet_potato",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "番薯不僅可以直接入菜，也能製成番薯粉用以勾芡。取得番薯的唯一方法是透過和村民進行交易。種植番薯的方法和種植馬鈴薯一樣。$(br2)食用番薯恢復1點飢餓值，而食用烤番薯或蒸番薯恢復5點飢餓值。"
+    },
+    {
+      "type": "image",
+      "title": "番薯",
+      "text": "番薯的外觀。",
+      "images": [
+        "taicraft:textures/gui/entries/crops/sweet_potato.png"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "番薯粉的合成配方。",
+      "recipe": "taicraft:sweet_potato_flour"
+    },
+    {
+      "type": "smelting",
+      "text": "烤番薯的燒煉配方。",
+      "recipe": "taicraft:baked_sweet_potato"
+    }
+  ]
+}

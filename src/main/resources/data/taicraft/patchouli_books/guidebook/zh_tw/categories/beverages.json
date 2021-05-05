@@ -1,0 +1,6 @@
+{
+  "name": "飲品",
+  "description": "關於模組裡所有飲料的資訊",
+  "icon": "taicraft:beverage_container",
+  "sortnum": 3
+}

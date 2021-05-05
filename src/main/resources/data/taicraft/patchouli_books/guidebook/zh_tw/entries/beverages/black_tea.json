@@ -1,0 +1,20 @@
+{
+  "name": "紅茶",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:black_tea_bottle",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "台灣的茶文化相當有名，而在這其中相當具代表性的茶類就是紅茶。喝紅茶對健康有許多益處，如促進心臟健康，降低血壓，以及降低血糖等。$(br2)紅茶的功能和豆漿類似。飲用紅茶會移除玩家身上所有的藥水效果。桶裝的紅茶和瓶裝的紅茶效果是一樣的。"
+    },
+    {
+      "type": "image",
+      "title": "紅茶",
+      "text": "裝著紅茶的水缸， 紅茶桶和紅茶瓶。",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/black_tea.png"
+      ]
+    }
+  ]
+}

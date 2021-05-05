@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "taicraft:wooden_knife",
+    "taicraft:stone_knife",
+    "taicraft:golden_knife",
+    "taicraft:iron_knife",
+    "taicraft:diamond_knife",
+    "taicraft:netherite_knife"
+  ]
+}

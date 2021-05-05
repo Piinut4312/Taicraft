@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "taicraft:dough"
+  },
+  "result": "taicraft:steamed_bread",
+  "experience": 0.35,
+  "cookingtime": 200
+}

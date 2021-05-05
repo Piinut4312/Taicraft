@@ -1,0 +1,18 @@
+{
+  "name": "Knife",
+  "category": "taicraft:tools",
+  "icon": "taicraft:stone_knife",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Knives are special weapons. They deal weaker damage to mobs compares to same-tier swords, but they apply a \"bleeding\" effect to the target. When a mob is bleeding, it loses half a heart of health every two seconds. When a pig is bleeding, you can right-click the pig with an empty bucket to obtain pig blood."
+    },
+    {
+      "type": "crafting",
+      "title": "Knife",
+      "text": "The crafting recipe of wooden knife. To craft other kinds of knives, just replace the plank with stone, gold ingot, iron ingot, diamond or netherite ingot.",
+      "recipe": "taicraft:wooden_knife"
+    }
+  ]
+}

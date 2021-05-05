@@ -1,0 +1,17 @@
+{
+  "name": "Oyster",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "There is a small chance of getting oyster while fishing. Eating oysters restores 2 hunger.$(br2)Oyster shells can be craft into oyster shell brick, which is a decorative block that needs to use a pickaxe to harvest."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:oyster_shell_brick",
+      "recipe2": "taicraft:polished_oyster_shell_brick"
+    }
+  ]
+}

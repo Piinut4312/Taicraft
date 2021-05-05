@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:empty_tea_bag"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    },
+    {
+      "item": "taicraft:black_tea_leaves"
+    }
+  ],
+  "result": {
+    "item": "taicraft:black_tea_bag",
+    "count": 1
+  }
+}

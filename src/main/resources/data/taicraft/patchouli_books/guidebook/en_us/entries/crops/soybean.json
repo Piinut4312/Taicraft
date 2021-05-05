@@ -1,0 +1,20 @@
+{
+  "name": "Soybean",
+  "category": "taicraft:crops",
+  "icon": "taicraft:soybean",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Soybeans are one of the ingredients to make soy milk and tofu. The only way to obtain soybeans is through villager trading. You have to craft soybeans into soybeans seeds to plant them."
+    },
+    {
+      "type": "image",
+      "title": "Soybean",
+      "text": "The appearance of soybeans.",
+      "images": [
+        "taicraft:textures/gui/entries/crops/soybean.png"
+      ]
+    }
+  ]
+}

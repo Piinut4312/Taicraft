@@ -1,0 +1,17 @@
+{
+  "name": "A Bowl Of Noodles",
+  "category": "taicraft:foods",
+  "icon": "taicraft:bowl_of_noodles",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Noodles are very common in Taiwanese dishes. Eating a bowl of noodles restores 5 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of a bowl of noodles.",
+      "recipe": "taicraft:bowl_of_noodles"
+    }
+  ]
+}

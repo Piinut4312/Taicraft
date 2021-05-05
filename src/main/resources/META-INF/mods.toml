@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="taicraft"
+version="1.16.5-1.1.0.1"
+displayName="Taicraft"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/taicraft"
+logoFile="taicraft_logo.png"
+credits="By Piinut(SoraGinko4312)"
+authors="By Piinut(SoraGinko4312)"
+description='''
+    A mod that adds Taiwanese foods and other things into Minecraft.
+'''
+[[dependencies.taicraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.taicraft]]
+    modId="patchouli"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "taicraft:raw_sausage"
+  },
+  "result": "taicraft:grilled_sausage",
+  "experience": 0.35,
+  "cookingtime": 200
+}

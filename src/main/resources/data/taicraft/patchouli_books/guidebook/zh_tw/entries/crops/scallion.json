@@ -1,0 +1,20 @@
+{
+  "name": "青蔥",
+  "category": "taicraft:crops",
+  "icon": "taicraft:scallion",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "青蔥常出現在台式料理中，用以增添風味。取得青蔥的唯一方法是透過和村民進行交易。種植青蔥的方法和種植馬鈴薯一樣。"
+    },
+    {
+      "type": "image",
+      "title": "青蔥",
+      "text": "青蔥的外觀",
+      "images":[
+        "taicraft:textures/gui/entries/crops/scallion.png"
+      ]
+    }
+  ]
+}

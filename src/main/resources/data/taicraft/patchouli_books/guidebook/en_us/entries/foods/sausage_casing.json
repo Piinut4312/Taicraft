@@ -1,0 +1,26 @@
+{
+  "name": "Sausage Casing",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sausage_casing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sausage casing is one of the ingredients to make sausages. To craft a sausage casing, you have to kill pigs for their intestines, then toss the intestines into the water to wash them. After that, you can craft sausage casings in a crafting table."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of sausage casing.",
+      "recipe": "taicraft:sausage_casing"
+    },
+    {
+      "type": "text",
+      "text": "Intestines are edible. Eating intestine restores 1 hunger and gives the consumer nausea effect. Eating washed intestines restores same amount of hunger as unwashed intestines, but they don't give consumer nausea effect. You can also cook washed intestines to make cooked intestines, which has the hunger value of 3."
+    },
+    {
+      "type": "smelting",
+      "recipe": "taicraft:cooked_intestine",
+      "text": "The smelting recipe of cooked intestine."
+    }
+  ]
+}

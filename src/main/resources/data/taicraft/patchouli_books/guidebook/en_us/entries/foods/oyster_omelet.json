@@ -1,0 +1,17 @@
+{
+  "name": "Oyster Omelet",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster_omelet",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Oyster omelet consists of an omelet with a filling composed of small oysters and vegetables, thickened with starch. Some variants use other seafood, like shrimps or cuttlefishes, instead of oysters. Eating oyster omelet restores 8 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:dish",
+      "recipe2": "taicraft:oyster_omelet"
+    }
+  ]
+}

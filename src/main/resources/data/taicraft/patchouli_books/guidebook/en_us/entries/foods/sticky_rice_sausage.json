@@ -1,0 +1,17 @@
+{
+  "name": "Sticky Rice Sausage",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sticky_rice_sausage",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sticky rice sausages are made from sticky rice and peanuts. Eating sticky rice sausages restores 5 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of sticky rice sausage.",
+      "recipe": "taicraft:sticky_rice_sausage"
+    }
+  ]
+}

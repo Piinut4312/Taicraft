@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "taicraft:block/soybean_stage2"
+  }
+}

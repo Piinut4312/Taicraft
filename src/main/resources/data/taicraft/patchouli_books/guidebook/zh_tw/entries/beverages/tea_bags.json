@@ -1,0 +1,23 @@
+{
+  "name": "茶包",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:black_tea_bag",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "茶包可用於泡茶。要合成茶包，你需要在工作台內用茶葉把空茶包填滿。"
+    },
+    {
+      "type": "crafting",
+      "text": "空茶包的合成配方。",
+      "recipe": "taicraft:empty_tea_bag"
+    },
+    {
+      "type": "crafting",
+      "title": "茶包",
+      "text": "茶包的合成配方。要製作其他種類的茶包，只需將配方中的茶葉換成其他種類即可。",
+      "recipe": "taicraft:black_tea_bag"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "taicraft:bamboo",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:bamboo",
+          "properties": {
+            "leaves": "large"
+          }
+        },
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:bamboo",
+          "properties": {
+            "leaves": "small"
+          }
+        }
+      ]
+    }
+  ],
+  "drop": "taicraft:bamboo_leaf",
+  "maxCount": 3,
+  "minCount": 1
+}

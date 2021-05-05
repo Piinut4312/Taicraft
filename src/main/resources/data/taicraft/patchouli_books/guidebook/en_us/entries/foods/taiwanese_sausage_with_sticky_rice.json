@@ -1,0 +1,17 @@
+{
+  "name": "Taiwanese Sausage With Sticky Rice",
+  "category": "taicraft:foods",
+  "icon": "taicraft:taiwanese_sausage_with_sticky_rice",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Taiwanese sausage with sticky rice is also known as \"Small sausage in large sausage\". They look like American burger dogs, but the hot dog buns are replaced with sticky rice sausages, and the hot dogs are replaced with Taiwanese sausages. You can find this snack in most night markets in Taiwan. Eating them restores 10 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of Taiwanese sausage with sticky rice.",
+      "recipe": "taicraft:taiwanese_sausage_with_sticky_rice"
+    }
+  ]
+}

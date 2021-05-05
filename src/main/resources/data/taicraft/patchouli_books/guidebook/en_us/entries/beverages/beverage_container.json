@@ -1,0 +1,18 @@
+{
+  "name": "Beverage Container",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:beverage_container",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Beverage containers can store one bucket of beverage. You can right click the container with a non-empty bucket to fill it up. Right click the container with an empty bucket removes the liquid inside it, but it only works if the container is full. Right click the container with an empty glass bottle removes 1/3 of the liquid inside it. You can't store different liquids in a single container at the same time."
+    },
+    {
+      "type": "crafting",
+      "title": "Beverage Container",
+      "text": "The crafting recipe of beverage container.",
+      "recipe": "taicraft:beverage_container"
+    }
+  ]
+}

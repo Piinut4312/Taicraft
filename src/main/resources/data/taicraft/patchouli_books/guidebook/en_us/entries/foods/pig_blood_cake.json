@@ -1,0 +1,17 @@
+{
+  "name": "Pig's Blood Cake",
+  "category": "taicraft:foods",
+  "icon": "taicraft:pig_blood_cake",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Pig's blood cake is made with sticky rice, steamed pork blood and then coated in peanut powder. Some people like to add coriander, but honestly, I hate coriander, so you will never find coriander in this mod. Eating pig's blood cakes restores 4 hunger, and eating the ones with peanut powder restores 5 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:pig_blood_cake",
+      "recipe2": "taicraft:pig_blood_cake_with_peanut_powder"
+    }
+  ]
+}

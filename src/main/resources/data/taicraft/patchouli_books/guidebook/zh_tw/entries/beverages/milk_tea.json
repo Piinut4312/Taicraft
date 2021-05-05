@@ -1,0 +1,20 @@
+{
+  "name": "奶茶",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:milk_tea_bottle",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "牛奶和茶，多麼天才的組合！ 在許多文化中都能找的到奶茶，而台灣就是其中一個。製作奶茶很簡單：拿著牛奶桶對裝滿紅茶的飲料桶按右鍵即可。$(br2)飲用奶茶並不會一次性清除所有藥水效果；它只會消除一部份的負面效果，像是中毒、緩速、飢餓、虛弱和噁心。"
+    },
+    {
+      "type": "image",
+      "title": "奶茶",
+      "text": "裝著奶茶的水缸， 奶茶桶和奶茶瓶。",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/milk_tea.png"
+      ]
+    }
+  ]
+}

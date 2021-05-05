@@ -1,0 +1,12 @@
+{
+  "name": "Tofu",
+  "category": "taicraft:foods",
+  "icon": "taicraft:tofu",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tofu, aka bean curd, is a food prepared by coagulating soy milk. Eating tofu restores 1 hunger. Please check the Tank chapter for more information about how to make them."
+    }
+  ]
+}

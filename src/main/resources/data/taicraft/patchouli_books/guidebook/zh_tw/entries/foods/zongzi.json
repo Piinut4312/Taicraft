@@ -1,0 +1,17 @@
+{
+  "name": "粽子",
+  "category": "taicraft:foods",
+  "icon": "taicraft:zongzi",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "text",
+      "text": "粽子是在糯米中包入豬肉、花生、蛋黃等內餡，再用竹葉包裹成金字塔狀蒸煮製成。台灣人會在端午節時食用粽子。食用粽子恢復15點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:zongzi",
+      "text": "粽子的合成配方。"
+    }
+  ]
+}

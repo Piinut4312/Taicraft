@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "taicraft:sweet_potato"
+  },
+  "result": "taicraft:steamed_sweet_potato",
+  "experience": 0.35,
+  "cookingtime": 200
+}

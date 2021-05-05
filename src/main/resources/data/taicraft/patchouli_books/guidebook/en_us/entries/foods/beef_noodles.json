@@ -1,0 +1,17 @@
+{
+  "name": "Beef Noodles Soup",
+  "category": "taicraft:foods",
+  "icon": "taicraft:beef_noodles",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Beef noodles soup are very popular in Taiwan. They are made with soy-sauce-based soup, chunky beef, thick noodles and some vegetables. A competition called \"Taipei International Beef Noodle Festival\" is held every year to honor Taiwan's best bowl of beef noodle soup. Eating beef noodles restores 15 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of beef noodles.",
+      "recipe": "taicraft:beef_noodles"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "雞肉飯",
+  "category": "taicraft:foods",
+  "icon": "taicraft:chicken_rice",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "台灣最有名氣的雞肉飯源自於嘉義。有時候人們會用火雞來取代雞肉。食用雞肉飯恢復11點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "雞肉飯的合成配方。",
+      "recipe": "taicraft:chicken_rice"
+    }
+  ]
+}

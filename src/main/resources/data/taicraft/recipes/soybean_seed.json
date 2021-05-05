@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:soybean"
+    }
+  ],
+  "result": {
+    "item": "taicraft:soybean_seed",
+    "count": 4
+  }
+}

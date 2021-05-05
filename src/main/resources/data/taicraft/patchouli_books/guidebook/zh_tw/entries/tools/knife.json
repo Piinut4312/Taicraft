@@ -1,0 +1,18 @@
+{
+  "name": "小刀",
+  "category": "taicraft:tools",
+  "icon": "taicraft:stone_knife",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "小刀是一種特殊的武器。它們和同品質的劍相比少了一點攻擊力，但會賦予目標「出血」效果。當生物獲得出血效果時，該生物每兩秒將會損失1點生命值。當豬正在出血時，可以用空鐵桶對豬點擊來收集豬血。"
+    },
+    {
+      "type": "crafting",
+      "title": "小刀",
+      "text": "木製小刀的合成配方。要製作其他種類的刀，只需將木材替換成其他材料即可。",
+      "recipe": "taicraft:wooden_knife"
+    }
+  ]
+}

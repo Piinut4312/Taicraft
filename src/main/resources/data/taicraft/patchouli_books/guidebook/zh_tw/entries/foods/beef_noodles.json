@@ -1,0 +1,17 @@
+{
+  "name": "牛肉麵",
+  "category": "taicraft:foods",
+  "icon": "taicraft:beef_noodles",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "text",
+      "text": "牛肉麵在台灣非常受歡迎。牛肉麵是由醬油為基底的湯頭、塊狀的牛肉、粗麵條和一些蔬菜所組成。在台灣每年都會舉辦「臺北國際牛肉麵節」以評比出最美味的牛肉麵。食用牛肉麵恢復15飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "牛肉麵的合成配方。",
+      "recipe": "taicraft:beef_noodles"
+    }
+  ]
+}

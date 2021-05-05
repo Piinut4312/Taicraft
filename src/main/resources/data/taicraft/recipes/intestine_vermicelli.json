@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:cooked_intestine"
+    },
+    {
+      "item": "taicraft:sweet_potato_flour"
+    },
+    {
+      "item": "taicraft:bowl_of_noodles"
+    }
+  ],
+  "result": {
+    "item": "taicraft:intestine_vermicelli",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:bowl_of_rice"
+    },
+    {
+      "item": "taicraft:peanut"
+    },
+    {
+      "item": "minecraft:bamboo"
+    }
+  ],
+  "result": {
+    "item": "taicraft:sticky_rice_in_bamboo",
+    "count": 1
+  }
+}

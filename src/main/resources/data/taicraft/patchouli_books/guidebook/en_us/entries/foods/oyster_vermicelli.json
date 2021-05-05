@@ -1,0 +1,17 @@
+{
+  "name": "Oyster Vermicelli",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster_vermicelli",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Oyster vermicelli is a noodle soup consists of small oysters and misua(Chinese vermicelli). Eating oyster vermicelli restores 10 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:oyster_vermicelli",
+      "text": "The crafting recipe of oyster vermicelli"
+    }
+  ]
+}

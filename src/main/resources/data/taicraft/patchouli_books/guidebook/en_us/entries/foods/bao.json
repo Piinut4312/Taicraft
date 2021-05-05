@@ -1,0 +1,17 @@
+{
+  "name": "Bao",
+  "category": "taicraft:foods",
+  "icon": "taicraft:bao",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Bao, or baozi, tastes like steamed bread but has filling inside it. In Taiwan, most people use pork as the filling. Eating raw bao restores 4 hunger, and eating bao restores 7 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:raw_bao",
+      "text": "The crafting recipe of raw bao. Cook raw bao with steamer to make bao."
+    }
+  ]
+}

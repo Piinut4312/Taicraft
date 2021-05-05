@@ -1,0 +1,32 @@
+{
+  "name": "Sweet Potato",
+  "category": "taicraft:crops",
+  "icon": "taicraft:sweet_potato",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sweet potatoes can not only directly used in dishes but also be used to make sweet potato flour. Similar to scallions, the only way to obtain sweet potatoes is through villager trading. You can farm sweet potatoes in the same way as farming potatoes.$(br2)Eating sweet potatoes restores 1 hunger, and eating baked or steamed ones restores 5 hunger."
+    },
+    {
+      "type": "image",
+      "title": "Sweet Potato",
+      "text": "The appearance of sweet potatoes.",
+      "images": [
+        "taicraft:textures/gui/entries/crops/sweet_potato.png"
+      ]
+    },
+    {
+      "type": "crafting",
+      "title": "Sweet Potato Flour",
+      "text": "The crafting recipe of sweet potato flour.",
+      "recipe": "taicraft:sweet_potato_flour"
+    },
+    {
+      "type": "smelting",
+      "title": "Baked Sweet Potato",
+      "text": "The smelting recipe of baked sweet potato.",
+      "recipe": "taicraft:baked_sweet_potato"
+    }
+  ]
+}

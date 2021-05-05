@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "taicraft:oyster_shell"
+    }
+  },
+  "result": {
+    "item": "taicraft:oyster_shell_brick",
+    "count": 1
+  }
+}

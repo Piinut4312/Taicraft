@@ -1,0 +1,421 @@
+{
+  "parent": "taicraft:taicraft/get_all_crops",
+  "display": {
+    "icon": {
+      "item": "taicraft:bowl_of_rice"
+    },
+    "title": {
+      "translate": "advancements.taicraft.eat_all_food.title"
+    },
+    "description": {
+      "translate": "advancements.taicraft.eat_all_food.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "bowl_of_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:bowl_of_rice"
+        }
+      }
+    },
+    "chicken_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:chicken_rice"
+        }
+      }
+    },
+    "sunny_side_up_egg": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:sunny_side_up_egg"
+        }
+      }
+    },
+    "steamed_bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_bread"
+        }
+      }
+    },
+    "steamed_bread_with_egg": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_bread_with_egg"
+        }
+      }
+    },
+    "intestine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:intestine"
+        }
+      }
+    },
+    "washed_intestine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:washed_intestine"
+        }
+      }
+    },
+    "cooked_intestine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:cooked_intestine"
+        }
+      }
+    },
+    "raw_sausage": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:raw_sausage"
+        }
+      }
+    },
+    "grilled_sausage": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:grilled_sausage"
+        }
+      }
+    },
+    "sticky_rice_sausage": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:sticky_rice_sausage"
+        }
+      }
+    },
+    "taiwanese_sausage_with_sticky_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:taiwanese_sausage_with_sticky_rice"
+        }
+      }
+    },
+    "scallion_pancake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:scallion_pancake"
+        }
+      }
+    },
+    "bowl_of_noodles": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:bowl_of_noodles"
+        }
+      }
+    },
+    "beef_noodles": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:beef_noodles"
+        }
+      }
+    },
+    "oyster": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:oyster"
+        }
+      }
+    },
+    "oyster_omelet": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:oyster_omelet"
+        }
+      }
+    },
+    "oyster_vermicelli": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:oyster_vermicelli"
+        }
+      }
+    },
+    "intestine_vermicelli": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:intestine_vermicelli"
+        }
+      }
+    },
+    "sweet_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:sweet_potato"
+        }
+      }
+    },
+    "baked_sweet_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:baked_sweet_potato"
+        }
+      }
+    },
+    "steamed_sweet_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_sweet_potato"
+        }
+      }
+    },
+    "zongzi": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:zongzi"
+        }
+      }
+    },
+    "gua_bao": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:gua_bao"
+        }
+      }
+    },
+    "tofu": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:tofu"
+        }
+      }
+    },
+    "stinky_tofu": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:stinky_tofu"
+        }
+      }
+    },
+    "bao": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:bao"
+        }
+      }
+    },
+    "raw_bao": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:raw_bao"
+        }
+      }
+    },
+    "sticky_rice_in_bamboo": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:sticky_rice_in_bamboo"
+        }
+      }
+    },
+    "pig_blood_cake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:pig_blood_cake"
+        }
+      }
+    },
+    "pig_blood_cake_with_peanut_powder": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:pig_blood_cake_with_peanut_powder"
+        }
+      }
+    },
+    "steamed_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_beef"
+        }
+      }
+    },
+    "steamed_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_porkchop"
+        }
+      }
+    },
+    "steamed_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_mutton"
+        }
+      }
+    },
+    "steamed_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_chicken"
+        }
+      }
+    },
+    "steamed_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "taicraft:steamed_rabbit"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bowl_of_rice"
+    ],
+    [
+      "chicken_rice"
+    ],
+    [
+      "sunny_side_up_egg"
+    ],
+    [
+      "steamed_bread"
+    ],
+    [
+      "steamed_bread_with_egg"
+    ],
+    [
+      "intestine"
+    ],
+    [
+      "washed_intestine"
+    ],
+    [
+      "cooked_intestine"
+    ],
+    [
+      "raw_sausage"
+    ],
+    [
+      "grilled_sausage"
+    ],
+    [
+      "sticky_rice_sausage"
+    ],
+    [
+      "taiwanese_sausage_with_sticky_rice"
+    ],
+    [
+      "scallion_pancake"
+    ],
+    [
+      "bowl_of_noodles"
+    ],
+    [
+      "beef_noodles"
+    ],
+    [
+      "oyster"
+    ],
+    [
+      "oyster_omelet"
+    ],
+    [
+      "oyster_vermicelli"
+    ],
+    [
+      "intestine_vermicelli"
+    ],
+    [
+      "sweet_potato"
+    ],
+    [
+      "baked_sweet_potato"
+    ],
+    [
+      "steamed_sweet_potato"
+    ],
+    [
+      "zongzi"
+    ],
+    [
+      "gua_bao"
+    ],
+    [
+      "tofu"
+    ],
+    [
+      "stinky_tofu"
+    ],
+    [
+      "bao"
+    ],
+    [
+      "raw_bao"
+    ],
+    [
+      "sticky_rice_in_bamboo"
+    ],
+    [
+      "pig_blood_cake"
+    ],
+    [
+      "pig_blood_cake_with_peanut_powder"
+    ],
+    [
+      "steamed_beef"
+    ],
+    [
+      "steamed_porkchop"
+    ],
+    [
+      "steamed_mutton"
+    ],
+    [
+      "steamed_chicken"
+    ],
+    [
+      "steamed_rabbit"
+    ]
+  ]
+}

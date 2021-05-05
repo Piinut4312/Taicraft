@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "taicraft:washed_intestine"
+  },
+  "result": "taicraft:cooked_intestine",
+  "experience": 0.35,
+  "cookingtime": 600
+}

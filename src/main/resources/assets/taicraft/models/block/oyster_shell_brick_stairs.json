@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "taicraft:block/oyster_shell_brick",
+    "top": "taicraft:block/oyster_shell_brick",
+    "side": "taicraft:block/oyster_shell_brick"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "taicraft:block/steamer_top",
+    "front": "taicraft:block/steamer_front_on",
+    "side": "taicraft:block/steamer_side"
+  }
+}

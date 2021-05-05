@@ -1,0 +1,18 @@
+{
+  "name": "飲料桶",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:beverage_container",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "飲料桶可以儲存一桶飲品。拿著裝有液體的桶子對飲料桶按右鍵即可將液體倒入其中。當飲料桶是滿的，可以用空桶取出裡面的液體。用玻璃瓶可以取出飲料桶內1/3的液體。同一個飲料桶內無法存放超過一種液體"
+    },
+    {
+      "type": "crafting",
+      "title": "飲料桶",
+      "text": "飲料桶的合成配方。",
+      "recipe": "taicraft:beverage_container"
+    }
+  ]
+}

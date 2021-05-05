@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:oyster"
+    },
+    {
+      "item": "taicraft:oyster"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "taicraft:sweet_potato_flour"
+    },
+    {
+      "item": "taicraft:sweet_potato_flour"
+    },
+    {
+      "item": "taicraft:dish"
+    }
+  ],
+  "result": {
+    "item": "taicraft:oyster_omelet",
+    "count": 1
+  }
+}

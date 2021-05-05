@@ -1,0 +1,17 @@
+{
+  "name": "蚵仔麵線",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster_vermicelli",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "蚵仔麵線是由蚵仔和麵線組成(對，我是故意漏掉香菜的)。食用蚵仔麵線恢復10點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:oyster_vermicelli",
+      "text": "蚵仔麵線的合成配方。"
+    }
+  ]
+}

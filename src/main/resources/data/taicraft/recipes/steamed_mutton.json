@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "minecraft:mutton"
+  },
+  "result": "taicraft:steamed_mutton",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Zongzi",
+  "category": "taicraft:foods",
+  "icon": "taicraft:zongzi",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Zongzi are made from sticky rice, with different ingredients, such as pork, peanuts, and egg yolks, as the filling, then wrapped with bamboo leaves in a pyramid shape. Taiwanese eats zongzi to celebrate Dragon Boat Festival. Eating zongzi restores 15 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:zongzi",
+      "text": "The crafting recipe of zongzi"
+    }
+  ]
+}

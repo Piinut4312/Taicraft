@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:bowl_of_noodles"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "taicraft:scallion"
+    }
+  ],
+  "result": {
+    "item": "taicraft:beef_noodles",
+    "count": 1
+  }
+}

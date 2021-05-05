@@ -1,0 +1,12 @@
+{
+  "name": "豆腐",
+  "category": "taicraft:foods",
+  "icon": "taicraft:tofu",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "text",
+      "text": "豆腐是由凝固的豆漿製成。食用豆腐恢復1點飢餓值。製作豆腐的方式請參考「水缸」章節。"
+    }
+  ]
+}

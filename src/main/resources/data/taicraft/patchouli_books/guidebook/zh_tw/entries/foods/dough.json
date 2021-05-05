@@ -1,0 +1,17 @@
+{
+  "name": "麵糰",
+  "category": "taicraft:foods",
+  "icon": "taicraft:dough",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "麵糰是製作麵點的原料。合成麵糰需要麵粉和一桶水，而麵粉可透過分解小麥獲得。$(br2)用熔爐烘烤麵糰可獲得麵包。另一方麵，用蒸氣爐蒸煮麵糰可製成饅頭。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:flour",
+      "recipe2": "taicraft:dough"
+    }
+  ]
+}

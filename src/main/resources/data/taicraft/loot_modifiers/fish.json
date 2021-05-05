@@ -1,0 +1,11 @@
+{
+  "type": "taicraft:fish",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/fishing/fish"
+    }
+  ],
+  "drop": "taicraft:oyster",
+  "chance": 0.08
+}

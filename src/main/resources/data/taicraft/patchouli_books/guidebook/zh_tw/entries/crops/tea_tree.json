@@ -1,0 +1,20 @@
+{
+  "name": "茶樹",
+  "category": "taicraft:crops",
+  "icon": "taicraft:black_tea_sapling",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "茶樹生產茶葉，用以製成茶包來泡茶。要種植茶樹，你需要取得茶樹樹苗。取得茶樹樹苗的唯一方法是透過和村民進行交易。當茶樹成熟時，可以用剪刀採收茶葉。目前模組中只有一種茶樹，但未來將會新增更多種類的茶樹。"
+    },
+    {
+      "type": "image",
+      "title": "茶樹",
+      "text": "茶樹的外觀。",
+      "images": [
+        "taicraft:textures/gui/entries/crops/tea_tree.png"
+      ]
+    }
+  ]
+}

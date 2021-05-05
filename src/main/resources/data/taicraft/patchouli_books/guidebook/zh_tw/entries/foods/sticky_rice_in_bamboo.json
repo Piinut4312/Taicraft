@@ -1,0 +1,17 @@
+{
+  "name": "竹筒飯",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sticky_rice_in_bamboo",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "text",
+      "text": "竹筒飯是將米飯放入處理過的竹子內蒸煮製成。食用竹筒飯恢復6點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:sticky_rice_in_bamboo",
+      "text": "竹筒飯的合成配方。"
+    }
+  ]
+}

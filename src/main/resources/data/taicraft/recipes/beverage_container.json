@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W#W",
+    "W W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cauldron"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "taicraft:beverage_container",
+    "count": 1
+  }
+}

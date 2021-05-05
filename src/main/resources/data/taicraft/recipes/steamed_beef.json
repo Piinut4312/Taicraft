@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "result": "taicraft:steamed_beef",
+  "experience": 0.35,
+  "cookingtime": 200
+}

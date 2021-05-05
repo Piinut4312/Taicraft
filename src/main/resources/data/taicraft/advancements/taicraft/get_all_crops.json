@@ -1,0 +1,212 @@
+{
+  "parent": "taicraft:taicraft/root",
+  "display": {
+    "icon": {
+      "item": "taicraft:rice"
+    },
+    "title": {
+      "translate": "advancements.taicraft.get_all_crops.title"
+    },
+    "description": {
+      "translate": "advancements.taicraft.get_all_crops.description"
+    },
+    "frame": "challenge",
+    "show_toast": "true",
+    "announce_to_chat": "true",
+    "hidden": "false"
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:rice"
+          }
+        ]
+      }
+    },
+    "scallion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:scallion"
+          }
+        ]
+      }
+    },
+    "sweet_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:sweet_potato"
+          }
+        ]
+      }
+    },
+    "peanut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:peanut"
+          }
+        ]
+      }
+    },
+    "soybean": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:soybean"
+          }
+        ]
+      }
+    },
+    "black_tea_tree": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "taicraft:black_tea_sapling"
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat"
+          }
+        ]
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:carrot"
+          }
+        ]
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:potato"
+          }
+        ]
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:beetroot"
+          }
+        ]
+      }
+    },
+    "pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pumpkin"
+          }
+        ]
+      }
+    },
+    "melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:melon_slice"
+          }
+        ]
+      }
+    },
+    "kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:kelp"
+          }
+        ]
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sweet_berries"
+          }
+        ]
+      }
+    },
+    "nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_wart"
+          }
+        ]
+      }
+    },
+    "cocoa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cocoa_beans"
+          }
+        ]
+      }
+    },
+    "sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sugar_cane"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["rice"],
+    ["scallion"],
+    ["sweet_potato"],
+    ["peanut"],
+    ["soybean"],
+    ["black_tea_tree"],
+    ["wheat"],
+    ["carrot"],
+    ["potato"],
+    ["beetroot"],
+    ["pumpkin"],
+    ["melon"],
+    ["kelp"],
+    ["sweet_berries"],
+    ["nether_wart"],
+    ["cocoa"],
+    ["sugar_cane"]
+  ]
+}

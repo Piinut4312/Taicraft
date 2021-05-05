@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taicraft:bowl_of_rice"
+    },
+    {
+      "item": "taicraft:bowl_of_rice"
+    },
+    {
+      "item": "taicraft:pig_blood_bucket"
+    }
+  ],
+  "result": {
+    "item": "taicraft:pig_blood_cake",
+    "count": 3
+  }
+}

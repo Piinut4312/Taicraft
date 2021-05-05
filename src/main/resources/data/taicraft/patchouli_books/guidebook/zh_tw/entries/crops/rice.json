@@ -1,0 +1,20 @@
+{
+  "name": "稻米",
+  "category": "taicraft:crops",
+  "icon": "taicraft:rice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "稻米是台灣重要的糧食作物之一。要種植稻米，你需要打草來取得稻種。"
+    },
+    {
+      "type": "image",
+      "title": "稻米",
+      "text": "稻米的外觀。",
+      "images":[
+        "taicraft:textures/gui/entries/crops/rice.png"
+      ]
+    }
+  ]
+}

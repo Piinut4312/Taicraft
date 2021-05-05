@@ -1,0 +1,17 @@
+{
+  "name": "饅頭夾蛋",
+  "category": "taicraft:foods",
+  "icon": "taicraft:steamed_bread_with_egg",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "饅頭夾蛋再談灣的傳統早餐店裡很常見。食用饅頭夾蛋恢復7點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "饅頭夾蛋的合成配方。",
+      "recipe": "taicraft:steamed_bread_with_egg"
+    }
+  ]
+}

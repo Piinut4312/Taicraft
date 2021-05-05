@@ -1,0 +1,17 @@
+{
+  "name": "Sunny-Side-Up Egg",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sunny_side_up_egg",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "You can cook eggs in furnaces to make sunny-side-up eggs. Eating sunny-side-up egg restores 2 hunger."
+    },
+    {
+      "type": "smelting",
+      "text": "The crafting recipe of sunny side up egg.",
+      "recipe": "taicraft:sunny_side_up_egg"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "taicraft:steaming",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": "taicraft:steamed_porkchop",
+  "experience": 0.35,
+  "cookingtime": 200
+}

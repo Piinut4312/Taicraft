@@ -1,0 +1,17 @@
+{
+  "name": "一碗麵",
+  "category": "taicraft:foods",
+  "icon": "taicraft:bowl_of_noodles",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "麵在台式料理中很常見。食用一碗麵恢復5點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "一碗麵的合成配方。",
+      "recipe": "taicraft:bowl_of_noodles"
+    }
+  ]
+}

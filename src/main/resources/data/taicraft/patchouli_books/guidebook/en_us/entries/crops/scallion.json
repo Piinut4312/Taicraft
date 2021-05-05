@@ -1,0 +1,20 @@
+{
+  "name": "Scallion",
+  "category": "taicraft:crops",
+  "icon": "taicraft:scallion",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Scallions often appear in Taiwanese cuisine to give extra flavor to the dishes. The only way to obtain scallions is through villager trading. Once you have gathered some scallions, you can plant them in the same way as potatoes or carrots."
+    },
+    {
+      "type": "image",
+      "title": "Scallion",
+      "text": "The appearance of scallions.",
+      "images":[
+        "taicraft:textures/gui/entries/crops/scallion.png"
+      ]
+    }
+  ]
+}

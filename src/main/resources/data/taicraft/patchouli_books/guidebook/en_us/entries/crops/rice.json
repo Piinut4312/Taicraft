@@ -1,0 +1,20 @@
+{
+  "name": "Rice",
+  "category": "taicraft:crops",
+  "icon": "taicraft:rice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Rice is one of the vital food crops in Taiwan. To start farming rice, you need to obtain rice seeds by breaking grass."
+    },
+    {
+      "type": "image",
+      "title": "Rice",
+      "text": "The appearance of rices.",
+      "images":[
+        "taicraft:textures/gui/entries/crops/rice.png"
+      ]
+    }
+  ]
+}

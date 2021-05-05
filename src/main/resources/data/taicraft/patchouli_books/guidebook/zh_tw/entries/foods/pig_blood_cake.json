@@ -1,0 +1,17 @@
+{
+  "name": "豬血糕",
+  "category": "taicraft:foods",
+  "icon": "taicraft:pig_blood_cake",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "豬血糕是將混合了豬血的糯米蒸煮過後再撒上花生粉製成。有些人還會撒上香菜，但我討厭香菜，所以你永遠不會在這個模組裡看見香菜。食用豬血糕恢復4點飢餓值，而食用花生豬血糕恢復5點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:pig_blood_cake",
+      "recipe2": "taicraft:pig_blood_cake_with_peanut_powder"
+    }
+  ]
+}

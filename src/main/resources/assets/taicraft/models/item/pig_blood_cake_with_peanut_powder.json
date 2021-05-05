@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "taicraft:item/pig_blood_cake_with_peanut_powder"
+  }
+}

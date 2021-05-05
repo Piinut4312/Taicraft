@@ -1,0 +1,24 @@
+{
+  "name": "Soy Milk",
+  "category": "taicraft:beverages",
+  "icon": "taicraft:soy_milk_bottle",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Soy milk is a common drink in Taiwan. You can find soy milk in almost every traditional breakfast shop. Soy milk has as much protein as cow's milk, but it has fewer calories, and it's also rich in vitamins."
+    },
+    {
+      "type": "text",
+      "text": "In the game, drinking soy milk removes all of the drinker's potion effects, similar to milk. Drinking a bottle or a bucket of soy milk doesn't affect the ability to remove potion effects."
+    },
+    {
+      "type": "image",
+      "title": "Soy Milk",
+      "text": "Soy milk in a tank, a soy milk bucket and a soy milk bottle.",
+      "images": [
+        "taicraft:textures/gui/entries/beverages/soy_milk.png"
+      ]
+    }
+  ]
+}

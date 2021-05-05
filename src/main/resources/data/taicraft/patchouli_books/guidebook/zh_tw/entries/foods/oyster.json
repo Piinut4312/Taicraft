@@ -1,0 +1,17 @@
+{
+  "name": "牡蠣(蚵仔)",
+  "category": "taicraft:foods",
+  "icon": "taicraft:oyster",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "釣魚的時候有機率掉到牡蠣。.食用牡蠣恢復2點飢餓值。$(br2)牡蠣殼可製成牡蠣殼磚，一種裝飾用方塊。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:oyster_shell_brick",
+      "recipe2": "taicraft:polished_oyster_shell_brick"
+    }
+  ]
+}

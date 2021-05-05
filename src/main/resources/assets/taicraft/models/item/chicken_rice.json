@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "taicraft:item/taiwanese_chicken_rice"
+  }
+}

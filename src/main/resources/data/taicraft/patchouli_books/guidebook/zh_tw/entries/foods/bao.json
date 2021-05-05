@@ -1,0 +1,17 @@
+{
+  "name": "包子",
+  "category": "taicraft:foods",
+  "icon": "taicraft:bao",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "text",
+      "text": "包子吃起來就像是包有內餡的饅頭。在台灣，最常見的內餡種類是豬肉餡。食用生包子恢復4點飢餓值，而食用包子恢復7點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:raw_bao",
+      "text": "生包子的合成配方。把生包子放入蒸氣爐內蒸煮即可獲得包子。"
+    }
+  ]
+}

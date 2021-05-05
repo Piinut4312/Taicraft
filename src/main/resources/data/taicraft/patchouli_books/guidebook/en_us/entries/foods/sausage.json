@@ -1,0 +1,22 @@
+{
+  "name": "Sausage",
+  "category": "taicraft:foods",
+  "icon": "taicraft:grilled_sausage",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sausages are popular night market foods in Taiwan. Taiwanese sausages are made from pork. They have a slightly sweet flavor with crispy skin, and they are juicy as well. Some people will add Shaoxing or Gaoliang, both are a kind of alcohol, into the sausages.$(br2)Eating raw sausages restores 1 hunger, and eating grilled ones restores 3 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of raw sausage.",
+      "recipe": "taicraft:raw_sausage"
+    },
+    {
+      "type": "smelting",
+      "recipe": "taicraft:grilled_sausage",
+      "text": "The smelting recipe of grilled sausage."
+    }
+  ]
+}

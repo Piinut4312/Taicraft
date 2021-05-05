@@ -1,0 +1,17 @@
+{
+  "name": "一碗飯",
+  "category": "taicraft:foods",
+  "icon": "taicraft:bowl_of_rice",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "米飯在台式料理中很常見。食用米飯恢復5點飢餓值。"
+    },
+    {
+      "type": "crafting",
+      "text": "一碗飯的合成配方。",
+      "recipe": "taicraft:bowl_of_rice"
+    }
+  ]
+}

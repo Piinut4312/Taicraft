@@ -1,0 +1,16 @@
+{
+  "type": "taicraft:grass",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.125
+    },
+    {
+      "condition": "block_state_property",
+      "block":"minecraft:grass"
+    }
+  ],
+  "drop": "taicraft:rice_seed",
+  "maxCount": 1,
+  "minCount": 1
+}

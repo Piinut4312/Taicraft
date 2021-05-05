@@ -1,0 +1,20 @@
+{
+  "type": "taicraft:pig",
+  "conditions": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:pig"
+      }
+    },
+    {
+      "condition": "random_chance_with_looting",
+      "chance": 0.3,
+      "looting_multiplier": 0.1
+    }
+  ],
+  "drop": "taicraft:intestine",
+  "maxCount": 1,
+  "minCount": 1
+}

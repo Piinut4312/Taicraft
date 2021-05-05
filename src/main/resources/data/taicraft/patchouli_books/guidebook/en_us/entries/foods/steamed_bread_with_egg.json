@@ -1,0 +1,17 @@
+{
+  "name": "Steamed Bread With Egg",
+  "category": "taicraft:foods",
+  "icon": "taicraft:steamed_bread_with_egg",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Steamed bread with egg is a classic dish in most traditional breakfast shops in Taiwan. Eating steamed bread with egg restores 7 hunger."
+    },
+    {
+      "type": "crafting",
+      "text": "The crafting recipe of steamed bread with egg.",
+      "recipe": "taicraft:steamed_bread_with_egg"
+    }
+  ]
+}

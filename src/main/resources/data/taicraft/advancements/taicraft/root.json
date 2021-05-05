@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "taicraft:rice"
+    },
+    "title": {
+      "translate": "advancements.taicraft.root.title"
+    },
+    "description": {
+      "translate": "advancements.taicraft.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "guidebook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "patchouli:guide_book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "guidebook"
+    ]
+  ]
+}

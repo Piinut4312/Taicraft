@@ -1,0 +1,17 @@
+{
+  "name": "Sticky Rice In Bamboo",
+  "category": "taicraft:foods",
+  "icon": "taicraft:sticky_rice_in_bamboo",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sticky rice in bamboo consists of sticky rice roasted inside bamboo sections. Eating sticky rice in bamboo restores 6 hunger."
+    },
+    {
+      "type": "crafting",
+      "recipe": "taicraft:sticky_rice_in_bamboo",
+      "text": "The recipe of sticky rice in bamboo"
+    }
+  ]
+}

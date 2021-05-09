@@ -11,8 +11,10 @@ import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
+import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.*;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
@@ -101,7 +103,7 @@ public class FluidTankBlock extends Block {
                     tank.removeItem(hitResult);
                     return ActionResultType.SUCCESS;
                 }else if(tankStack.isEmpty()){
-                    tank.addItem(hitResult, handStack.getItem());
+                    tank.addItem(hitResult, handStack);
                     if(!player.abilities.instabuild){
                         handStack.shrink(1);
                     }

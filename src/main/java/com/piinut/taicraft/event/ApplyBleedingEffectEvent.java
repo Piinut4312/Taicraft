@@ -18,7 +18,7 @@ public class ApplyBleedingEffectEvent {
         PlayerEntity player = event.getPlayer();
         if(player.getMainHandItem().getItem() instanceof KnifeItem){
             if(event.getTarget() instanceof LivingEntity){
-                ((LivingEntity)event.getTarget()).addEffect(new EffectInstance(ModPotions.BLEEDING.get(), 20*8));
+                ((LivingEntity)event.getTarget()).addEffect(new EffectInstance(ModPotions.BLEEDING.get(), 20*8, 1));
             }
         }
     }

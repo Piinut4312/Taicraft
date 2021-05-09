@@ -21,7 +21,6 @@ public class BleedingEffect extends Effect {
     }
 
 
-
     @Override
     public void applyEffectTick(LivingEntity livingEntity, int p_76394_2_) {
         livingEntity.hurt(DamageSource.MAGIC, 1.0F);

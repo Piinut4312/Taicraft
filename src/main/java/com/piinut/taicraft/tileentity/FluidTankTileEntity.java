@@ -165,6 +165,12 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
         return inventory.getStackInSlot(slot);
     }
 
+    public void addItem(int slot, ItemStack stack){
+        ItemStack stack1 = stack.copy();
+        stack1.setCount(1);
+        inventory.insertItem(slot, stack1, false);
+    }
+
     public void addItem(int slot, Item item){
         inventory.insertItem(slot, new ItemStack(item, 1), false);
     }

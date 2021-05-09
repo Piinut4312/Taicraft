@@ -87,6 +87,9 @@ public class BlackTeaBlock extends BushBlock implements IGrowable {
             }
             world.setBlock(pos, state.setValue(AGE, 0), 2);
             world.playSound(null, pos, SoundEvents.SHEEP_SHEAR, SoundCategory.BLOCKS, 1, 1);
+            player.getItemInHand(hand).hurtAndBreak(1, player, (p_220282_1_) -> {
+                p_220282_1_.broadcastBreakEvent(hand);
+            });
             return ActionResultType.sidedSuccess(world.isClientSide());
         }else{
             return super.use(state, world, pos, player, hand, rayTraceResult);

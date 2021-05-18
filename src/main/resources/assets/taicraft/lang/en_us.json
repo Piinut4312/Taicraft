@@ -98,5 +98,6 @@
   "advancements.taicraft.get_all_crops.title": "Farm Master",
   "advancements.taicraft.get_all_crops.description": "Collect every crops",
   "advancements.taicraft.eat_all_food.title": "Gourmet",
-  "advancements.taicraft.eat_all_food.description": "Eat every kind of food from Taicraft"
+  "advancements.taicraft.eat_all_food.description": "Eat every kind of food from Taicraft",
+  "category.taicraft.recipe": "Steaming"
 }

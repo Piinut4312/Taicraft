@@ -8,19 +8,21 @@ buildscript {
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.16.5-1.1.0.1'
-group = 'com.piinut.taicraft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'com.piinut.taicraft'
 archivesBaseName = 'Taicraft'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 
 repositories {
+    maven {
+        url "https://dvs1.progwml6.com/files/maven/"
+    }
 
     maven {
         url 'https://maven.blamejared.com'
@@ -31,6 +33,9 @@ dependencies {
 
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50")
+
+    compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.0.98:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.0.98")
 
 }
 
@@ -50,13 +55,11 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                taicraft {
                     source sourceSets.main
                 }
             }
@@ -68,7 +71,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                taicraft {
                     source sourceSets.main
                 }
             }
@@ -78,11 +81,15 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
 
             args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
+            mods {
+                taicraft {
+                    source sourceSets.main
+                }
+            }
         }
     }
 }
@@ -97,12 +104,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "examplemod",
-            "Specification-Vendor": "examplemodsareus",
+            "Specification-Title": "Taicraft",
+            "Specification-Vendor": "Piinut4312",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"examplemodsareus",
+            "Implementation-Vendor" :"Piinut4312",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

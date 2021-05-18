@@ -1,0 +1,19 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"taicraft:black_tea_bag"
+    }
+  ],
+  "ingredient_amount": 3,
+  "result": {
+    "item": "taicraft:empty_tea_bag"
+  },
+  "fluidIn": "minecraft:water",
+  "fluidOut": "taicraft:black_tea",
+  "cookingTime": 1200,
+  "heat": true,
+  "mode":"REPLACE_ITEM",
+  "process_later": false,
+  "sound": "block.brewing_stand.brew"
+}

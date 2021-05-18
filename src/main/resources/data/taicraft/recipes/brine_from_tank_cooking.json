@@ -1,0 +1,37 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"minecraft:beef"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "ingredient_amount": 3,
+  "result": {
+    "item": "minecraft:air"
+  },
+  "fluidIn": "minecraft:water",
+  "fluidOut": "taicraft:brine",
+  "cookingTime": 12000,
+  "heat": false,
+  "mode":"REMOVE_ALL",
+  "process_later": false,
+  "sound": "block.brewing_stand.brew"
+}

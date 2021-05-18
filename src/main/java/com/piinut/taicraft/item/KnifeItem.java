@@ -18,7 +18,6 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-
 public class KnifeItem extends TieredItem implements IVanishable {
 
     private final float attackDamage;

@@ -1,0 +1,19 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"taicraft:tofu"
+    }
+  ],
+  "ingredient_amount": 1,
+  "result": {
+    "item": "taicraft:stinky_tofu"
+  },
+  "fluidIn": "taicraft:brine",
+  "fluidOut": "taicraft:brine",
+  "cookingTime": 400,
+  "heat": false,
+  "mode":"REPLACE_ITEM",
+  "process_later": false,
+  "sound": "block.honey_block.break"
+}

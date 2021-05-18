@@ -1,0 +1,19 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"taicraft:soybean"
+    }
+  ],
+  "ingredient_amount": 6,
+  "result": {
+    "item": "minecraft:air"
+  },
+  "fluidIn": "minecraft:water",
+  "fluidOut": "taicraft:soy_milk",
+  "cookingTime": 1200,
+  "heat": true,
+  "mode":"REMOVE_ALL",
+  "process_later": false,
+  "sound": "block.brewing_stand.brew"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"minecraft:air"
+    }
+  ],
+  "ingredient_amount": 0,
+  "result": {
+    "item": "taicraft:nigari"
+  },
+  "fluidIn": "minecraft:water",
+  "fluidOut": "minecraft:empty",
+  "cookingTime": 1200,
+  "heat": true,
+  "mode":"REPLACE_EMPTY",
+  "process_later": true,
+  "sound": "block.fire.extinguish"
+}

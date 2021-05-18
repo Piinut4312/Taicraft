@@ -1,7 +1,7 @@
 package com.piinut.taicraft.tileentity;
 
-import com.piinut.taicraft.register.ModFluids;
-import com.piinut.taicraft.register.ModItems;
+import com.piinut.taicraft.recipe.FluidTankRecipe;
+import com.piinut.taicraft.register.ModRecipes;
 import com.piinut.taicraft.register.ModTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
@@ -30,8 +31,6 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
     private int cookTimer;
     private FluidStack fluid;
     private static final int maxTime = 200000;
-    private int fluidUseTime;
-    List<Item> BRINE_INGREDIENTS = new ArrayList<>();
     public ItemStackHandler inventory = new ItemStackHandler(6){
 
         @Override
@@ -66,9 +65,7 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
     public FluidTankTileEntity() {
         super(ModTileEntities.FLUID_TANK.get());
         cookTimer = 0;
-        fluidUseTime = 0;
         fluid = new FluidStack(Fluids.EMPTY, 1);
-        addBrineIngredients();
     }
 
     @Override
@@ -77,18 +74,6 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
             return item_handler.cast();
         }
         return super.getCapability(cap, side);
-    }
-
-    private void addBrineIngredients(){
-        BRINE_INGREDIENTS.add(Items.BEEF);
-        BRINE_INGREDIENTS.add(Items.PORKCHOP);
-        BRINE_INGREDIENTS.add(Items.MUTTON);
-        BRINE_INGREDIENTS.add(Items.CHICKEN);
-        BRINE_INGREDIENTS.add(Items.RABBIT);
-        BRINE_INGREDIENTS.add(Items.EGG);
-        BRINE_INGREDIENTS.add(Items.FERMENTED_SPIDER_EYE);
-        BRINE_INGREDIENTS.add(Items.BROWN_MUSHROOM);
-        BRINE_INGREDIENTS.add(Items.RED_MUSHROOM);
     }
 
     public int getCookTimer(){
@@ -213,11 +198,6 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
         return block == Blocks.FIRE || block == Blocks.CAMPFIRE || block == Blocks.SOUL_CAMPFIRE || block == Blocks.LAVA;
     }
 
-    private boolean isBrineIngredient(ItemStack stack){
-        Item item = stack.getItem();
-        return BRINE_INGREDIENTS.contains(item);
-    }
-
     private void playSound(SoundEvent soundEvent){
         level.playSound(null, getBlockPos(), soundEvent, SoundCategory.BLOCKS, 100, 1);
     }
@@ -228,7 +208,6 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
         inventory.deserializeNBT(compound.getCompound("inventory"));
         fluid = FluidStack.loadFluidStackFromNBT(compound);
         cookTimer = compound.getInt("cookTimer");
-        fluidUseTime = compound.getInt("fluidUseTime");
     }
 
     @Override
@@ -237,7 +216,6 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
         compound.put("inventory", inventory.serializeNBT());
         fluid.writeToNBT(compound);
         compound.putInt("cookTimer", getCookTimer());
-        compound.putInt("fluidUseTime", fluidUseTime);
         return compound;
     }
 
@@ -271,37 +249,62 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
         }
     }
 
-    public boolean hasEnoughItem(Item item, int target){
-        int count = 0;
-        for(int i = 0; i < 6; i++){
-            if(getItem(i).getItem() == item){
-                count++;
-            }
-        }
-        return count >= target;
-    }
-
-    public boolean isFilledWith(Item item){
-        return hasEnoughItem(item, 6);
-    }
-
-    public boolean containItem(Item item){
-        for(int i = 0; i < 6; i++){
-            if(getItem(i).getItem() == item){
-                return true;
-            }
-        }
-        return false;
-    }
-
     public boolean isBurning(){
         return isBurningBlock(level.getBlockState(getBlockPos().below()));
     }
 
+    private boolean handleRecipe(FluidTankRecipe recipe){
+        if(recipe.isValid(this.inventory, this.getFluid())){
+            updateCookTimer();
+            if(getCookTimer() >= recipe.getCookTime()){
+                if((recipe.requireHeat() && isBurning()) || !recipe.requireHeat()) {
+                    setFluid(recipe.getFluidOut());
+                    switch (recipe.getMode()) {
+                        case REMOVE_ALL:
+                            emptyItems();
+                            break;
+                        case REPLACE_ALL:
+                            emptyItems();
+                            fillItems(recipe.getResultItem().getItem());
+                            break;
+                        case REPLACE_ITEM:
+                            replaceItems(recipe.getInput().getItem(), recipe.getResultItem().getItem());
+                            break;
+                        case REPLACE_EMPTY:
+                            fillItems(recipe.getResultItem().getItem());
+                            break;
+                        default:
+                            System.out.println("Nani???");
+                            break;
+                    }
+                    cookTimer = 0;
+                    playSound(recipe.getSound());
+                    markDirty();
+                }
+            }
+            return false;
+        }
+        return true;
+    }
+
     @Override
     public void tick() {
+        ArrayList<FluidTankRecipe> recipe_later = new ArrayList<>();
+        boolean shouldProcessLater = false;
+        for(final IRecipe<?> r : ModRecipes.getRecipes(ModRecipes.FLUID_TANK_RECIPE_TYPE, level.getRecipeManager()).values()){
+            final FluidTankRecipe recipe = (FluidTankRecipe) r;
+            if(recipe.isProcessedLater()){
+                recipe_later.add(recipe);
+                continue;
+            }
+            shouldProcessLater = handleRecipe(recipe);
+        }
+        if(shouldProcessLater){
+            for(FluidTankRecipe recipe : recipe_later){
+                handleRecipe(recipe);
+            }
+        }
         if(getFluid() == Fluids.LAVA){
-            cookTimer = 0;
             boolean flag = false;
             for(int i = 0; i < 6; i++){
                 ItemStack stack = inventory.getStackInSlot(i);
@@ -314,88 +317,7 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
                 playSound(SoundEvents.GENERIC_BURN);
                 markDirty();
             }
-        }else if(getFluid() == Fluids.WATER){
-            int brine_ingredients = 0;
-            for(int i = 0; i < 6; i++){
-                if(isBrineIngredient(getItem(i))){
-                    brine_ingredients++;
-                }
-            }
-            if(brine_ingredients >= 3){
-                updateCookTimer();
-                if(getCookTimer() > 12000){
-                    setFluid(ModFluids.BRINE.get());
-                    emptyItems();
-                    cookTimer = 0;
-                    markDirty();
-                }
-            }else if(isFilledWith(ModItems.SOYBEAN.get())){
-                if(isBurning()){
-                    updateCookTimer();
-                    if(getCookTimer() >= 1200){
-                        setFluid(ModFluids.SOY_MILK.get());
-                        playSound(SoundEvents.BREWING_STAND_BREW);
-                        emptyItems();
-                        cookTimer = 0;
-                        markDirty();
-                    }
-                }
-            }else if(hasEnoughItem(ModItems.BLACK_TEA_BAG.get(), 3)){
-                updateCookTimer();
-                int target = isBurning() ? 1200 : 3600;
-                if(getCookTimer() >= target){
-                    setFluid(ModFluids.BLACK_TEA.get());
-                    playSound(SoundEvents.BREWING_STAND_BREW);
-                    replaceItems(ModItems.BLACK_TEA_BAG.get(), ModItems.EMPTY_TEA_BAG.get());
-                    cookTimer = 0;
-                    markDirty();
-                }
-            }else if(isBurning()){
-                updateCookTimer();
-                if(getCookTimer() >= 1200){
-                    removeFluid();
-                    playSound(SoundEvents.FIRE_EXTINGUISH);
-                    fillItems(ModItems.NIGARI.get());
-                    cookTimer = 0;
-                    markDirty();
-                }
-            }else{
-                cookTimer = 0;
-                fluidUseTime = 0;
-            }
-        }else if(getFluid() == ModFluids.SOY_MILK.get()){
-            if(containItem(ModItems.NIGARI.get())){
-               updateCookTimer();
-                if(cookTimer >= 600){
-                    removeFluid();
-                    emptyItems();
-                    fillItems(ModItems.TOFU.get());
-                    playSound(SoundEvents.HONEY_BLOCK_BREAK);
-                    cookTimer = 0;
-                    markDirty();
-                }
-            }else{
-                cookTimer = 0;
-                fluidUseTime = 0;
-            }
-        }else if(getFluid() == ModFluids.BRINE.get()){
-            if(containItem(ModItems.TOFU.get())){
-                updateCookTimer();
-                if(getCookTimer() > 200){
-                    replaceItems(ModItems.TOFU.get(), ModItems.STINKY_TOFU.get());
-                    cookTimer = 0;
-                    fluidUseTime++;
-                    markDirty();
-                }
-                if(fluidUseTime >= 10){
-                    removeFluid();
-                    fluidUseTime = 0;
-                    markDirty();
-                }
-            }else{
-                cookTimer = 0;
-                fluidUseTime = 0;
-            }
         }
     }
+
 }

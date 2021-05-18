@@ -1,0 +1,19 @@
+{
+  "type": "taicraft:tank_cooking",
+  "ingredient": [
+    {
+      "item":"taicraft:nigari"
+    }
+  ],
+  "ingredient_amount": 1,
+  "result": {
+    "item": "taicraft:tofu"
+  },
+  "fluidIn": "taicraft:soy_milk",
+  "fluidOut": "minecraft:empty",
+  "cookingTime": 400,
+  "heat": false,
+  "mode":"REPLACE_ALL",
+  "process_later": false,
+  "sound": "block.honey_block.break"
+}

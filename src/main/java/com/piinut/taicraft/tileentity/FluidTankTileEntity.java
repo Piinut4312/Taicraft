@@ -290,14 +290,14 @@ public class FluidTankTileEntity extends TileEntity implements ITickableTileEnti
     @Override
     public void tick() {
         ArrayList<FluidTankRecipe> recipe_later = new ArrayList<>();
-        boolean shouldProcessLater = false;
+        boolean shouldProcessLater = true;
         for(final IRecipe<?> r : ModRecipes.getRecipes(ModRecipes.FLUID_TANK_RECIPE_TYPE, level.getRecipeManager()).values()){
             final FluidTankRecipe recipe = (FluidTankRecipe) r;
             if(recipe.isProcessedLater()){
                 recipe_later.add(recipe);
-                continue;
+            }else{
+                shouldProcessLater = shouldProcessLater && handleRecipe(recipe);
             }
-            shouldProcessLater = handleRecipe(recipe);
         }
         if(shouldProcessLater){
             for(FluidTankRecipe recipe : recipe_later){

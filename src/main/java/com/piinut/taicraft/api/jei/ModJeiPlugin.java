@@ -20,6 +20,8 @@ public class ModJeiPlugin implements IModPlugin {
 
     private static final ResourceLocation PLUGIN_ID = new ResourceLocation(Main.MODID, "jei_plugin");
 
+    protected static final ResourceLocation VANILLA_GUI_ID = new ResourceLocation("jei", "textures/gui/gui_vanilla.png");
+
     @Override
     public ResourceLocation getPluginUid() {
         return PLUGIN_ID;
